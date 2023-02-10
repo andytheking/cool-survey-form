@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - cool survey form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <div id="header">
+
+        <h1 id="title">King's Survey Form</h1>
+        <p id="description">Thank you stranger for answering questions</p>
+
+    </div>
+
+    <div class="container">
+
+ <form action="#" method="POST" id="survey-form">
+ <div class="form-wrap">
+ <label id="name-label" for="name" class="form-txt">Name yourself or I'll kick your ass!</label>
+            <input type="text" id="name" name="name" placeholder="what is your name, huh?" class="form-box" required>
+                </div>
+
+                <div class="form-wrap">
+            <label id="email-label" for="email" class="form-txt">Give me your email, I said!</label>
+            <input type="email" id="email" name="email" placeholder="what is your email, huh?" class="form-box" required>
+                </div>
+
+                <div class="form-wrap">
+            <label id="number-label" for="number" class="form-txt">What's your age again?</label>
+            <input type="number" id="number" min="1" max="3" name="number" placeholder="You looke like a youngster!" class="form-box" required>
+                </div>
+
+                <div class="form-wrap">
+                    <p id="txt">Which option best descibe your kingdom?</p>
+            <select name="role" id="dropdown" class="form-dropdown" required="">
+                <option disabled="" selected="" value="">Select your current kingdom</option>
+                <option value="none">I have no kingdom</option>
+                <option value="none">My kingdom is a box under a bridge</option>
+                <option value="none">I'm a wombat. Hello!'</option>
+            </select>
+                </div>
+
+                <div class="form-2">
+
+                    <p id="txt">Do you like to be a king?</p>
+                       
+                    <div class="radio">
+                            <input name="user-recommend" type="radio" class="input-radio" value="definitely" >
+                            <label class="radio">Yep!</label>
+                        <br class="br1">
+
+                            <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked>
+                            <label class="radio">I'm not a King...</label>
+                        <br class="br1">
+
+                            <input name="user-recommend" value="definitely" type="radio" class="input-radio">
+                            <label class="radio">nope...</label>
+                    </div>  
+                </div>
+
+                <div class="fking">
+
+                    <p id="txt">Why do you think I'm the best king?</p>
+                    <select name="role" id="dropdown" class="form-dropdown" required="">
+                        <option disabled="" selected="" value="">Select your current kingdom</option>
+                        <option value="none">Because you are the best! EVER! That's why!</option>
+                        <option value="none">Because you are a super!</option>
+                        <option value="none">Because you are my hero!</option>
+                        <option value="none">Just because!</option>
+                    </select>
+
+                </div>
+                
+                <div class="check-box-wrap">
+                    <p id="txt">What did you said!?</p>
+
+                    <div class="check-boxes">
+                        
+                        <label for="" class="check-boxes-labels">
+                            <input type="checkbox" class="check-boxes-inputs" value="1">
+                            Nothing....
+                            <span class="checkmark"></span>
+                        </label>
+                        
+                        <label for="" class="check-boxes-labels">
+                            <input type="checkbox" class="check-boxes-inputs" value="2">
+                            I don't remember....
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label for="" class="check-boxes-labels">
+                            <input type="checkbox" class="check-boxes-inputs" value="3">
+                            I'm sorry but I can't talk with strangers
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label for="" class="check-boxes-labels">
+                            <input type="checkbox" class="check-boxes-inputs" value="4">
+                            ###### and ###### and and #####
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label for="" class="check-boxes-labels">
+                            <input type="checkbox" class="check-boxes-inputs"  value="5">
+                            Hello king! HELLO!
+                            <span class="checkmark"></span>
+                        </label>
+
+                    </div>
+
+                    <div class="textarea-wrap">
+                        <p>You can type here whatever you want if you are so brave...</p>
+                        <textarea name="comment" id="comments" placeholder="I thought so..." style="height: 80px;"></textarea>
+
+                    </div>
+
+                </div>
+
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+  
+    
+</body>

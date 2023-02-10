@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Urbanist:wght@100&display=swap');
+
+* {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+}
+
+body {
+    background-image: url(https://ic.c4assets.com/brands/superjail/series-4/episode-1/eb32297f-279f-44a0-9e1a-4233992fcbb2.jpg?interpolation=progressive-bicubic&output-format=jpeg&output-quality=90&resize=1160px:*);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+select option {                     
+    background-color:tomato;
+    color: rgb(152, 12, 135);
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 20px;
+    width: 940px;
+}
+
+#title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    color: rgb(152, 12, 135);
+    text-align: center;
+    background-color:rgba(255, 99, 71, 0.8);
+    margin-top: 20px;
+    padding: 10px;
+    width: 960px;
+}
+
+#description {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    background-color:rgba(255, 99, 71, 0.8);
+    text-shadow: blanchedalmond 1px 1px 1px;
+    margin-top: 5px;
+    padding: 10px;
+    width: 960px;
+}
+
+#survey-form {
+    position:relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: seashell;
+    text-shadow: none;
+}
+
+.form-txt {
+    display: block;
+    margin-bottom: 11px;
+    margin-top: 8px;
+}
+
+.form-box {
+    display: block;
+    width: 930px;
+    height: 20px;
+    color: lightyellow;
+    background-color:rgba(238, 184, 184, 0.1);
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.form-dropdown {
+    display: block;
+    width: 942px;
+    color: rgba(238, 238, 206, 0.6);
+    background-color:rgba(238, 184, 184, 0.1);
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+#txt {
+    display: block;
+    margin-bottom: 11px;
+    margin-top: 8px;
+}
+
+.radio {
+    margin-bottom: 11px;
+    margin-top: 8px;
+    font-size: 18px;
+    text-align: right;
+}
+
+.input-radio {
+    margin-bottom: 11px;
+    margin-top: 8px;
+    font-size: 18px;
+    text-align: right;
+}
+
+.radio {
+    display: inline;
+}
+
+.fking {
+    margin-top: 20px;
+}
+
+.check-boxes-labels {
+    display: block;
+    font-size: 18px;
+}
+
+.check-box-wrap {
+    margin: 10px 0 20px 0;
+}
+
+#comments {
+    display: block;
+    width: 923px;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 10px 0 0 10px;
+}
+
+#submit {
+    display: block;
+    width: 938px;
+    padding: 10px 0 10px 0;
+    font-size: 18px;
+    color: rgba(238, 238, 206, 1);
+    background-color:rgba(152, 12, 135, 0.5);
+    border-color: rgba(152, 12, 135, 0.5);
+    border-radius: 3px;
+    margin-bottom: 60px;
+}
